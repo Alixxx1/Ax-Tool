@@ -8,7 +8,17 @@ from core.lzmcore import *
 def main():
         banner()
         print "   [01] Entertainment section
-        print "   [02] ... hacked
-        print "   [03] Break through with hoaxes
         Ax Tool = raw_input("Ax Tool > ")
         
+        if Ax Tool == "1" or Ax Tool == "01":
+        print "\n    [01] Nmap"
+        Entertainment section= raw_input("Ax Tool > ")
+        
+        if Entertainment section == "01" or Entertainment section == "1":
+			nmap()
+                        
+        else:
+			print "\nERROR: Wrong Input"
+			timeout(2)
+			restart_program()
+	
